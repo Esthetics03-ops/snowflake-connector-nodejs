@@ -6,6 +6,10 @@ on:
 
 concurrency: snyk-issue
 
+- name: Some Snyk Step
+  uses: snyk/actions@<version>
+  with:
+    token: ${{ secrets.GITHUB_TOKEN }}
 jobs:
   whitesource:
     runs-on: ubuntu-latest
