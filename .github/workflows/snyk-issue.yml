@@ -1,5 +1,5 @@
 
-- name: Some Snyk Step
+name: Some Snyk Step
   uses: snyk/actions@<version>
   with:
     token: ${{ secrets.GITHUB_TOKEN }}
